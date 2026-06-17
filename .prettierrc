@@ -1,0 +1,29 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "singleQuote": true,
+  "bracketSpacing": false,
+  "arrowParens": "always",
+  "plugins": ["@ianvs/prettier-plugin-sort-imports"],
+  "semi": true,
+  "importOrder": [
+    "^react$",
+    "^lit$",
+    "<THIRD_PARTY_MODULES>",
+    "<BUILTIN_MODULES>",
+    "",
+    "<TYPES>^(node:)",
+    "<TYPES>^[.]",
+    "<TYPES>",
+    "",
+    "^(@/assets|@/contexts|@/hooks|@/lib|@/pages|@/services|@/workers)(/.*)$",
+    "",
+    "^(@mui)(/.*)$",
+    "^(@/components)(/.*)$",
+    "",
+    "^[./]"
+  ],
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"],
+  "importOrderTypeScriptVersion": "5.0.0",
+  "importOrderCaseSensitive": false
+}
