@@ -34,7 +34,7 @@ class PtAbout extends LitElement {
       <section>
         <div class="content">
           <h1>
-            Hello! I'm Anggi, a
+            Hello! I'm Habibie, a
             <rough-notation
               multiline="true"
               id="rn-1"
